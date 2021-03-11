@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 }
 body{
     background-color: #81ecec;
+    font-family: 'Noto Serif', serif;
 }
 a{  
     display: block;
@@ -91,7 +93,7 @@ p{
     position: absolute;
     top: 40%;
     width: 100%;
-    font-size: 25px;
+    font-size: 35px;
     color: #fff;
     font-weight: 900;
     
