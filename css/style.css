@@ -9,22 +9,18 @@ body{
 a{  
     display: block;
     margin-bottom: 40px;
-    color:#000;
+    color: #81ecec;
     font-size: 47px;
     text-decoration: none;
     text-align: center;
     
 }
-ul{
-    
-    display: contents;
+ul{ 
     position: absolute;
- 
-       
-}
-.lista{
+    left:0;
+    right: 0;
     margin: 100px auto;
-    
+       
 }
 
 .menu{
@@ -88,5 +84,15 @@ input:checked ~label .hamburger:before{
 input:checked ~label .hamburger:after{
     transform:rotate(90deg);
     bottom: 0px;
+    
+}
+p{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 900;
     
 }
